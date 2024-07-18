@@ -20,6 +20,9 @@ This Java application is designed to manage invoices, customer details, product 
 - **totalAmount**: DECIMAL(10, 2) NOT NULL
 - **isPaid**: BOOLEAN DEFAULT FALSE
 - **FOREIGN KEY** (customerId) REFERENCES CustomerDetails(customerId)
+  
+![image](https://github.com/user-attachments/assets/1eb60cf1-4c72-4486-9cc7-e4bc7e0ce793)
+
 
 ### ProductDetails
 - **productId**: SERIAL PRIMARY KEY
@@ -28,6 +31,9 @@ This Java application is designed to manage invoices, customer details, product 
 - **totalSoldAmount**: NUMERIC(10, 2)
 - **availableProducts**: INT
   
+![image](https://github.com/user-attachments/assets/12258a71-84f2-47c7-b3a3-1bb2da33eea2)
+
+  
 ### CustomerDetails
 - **customerId**: SERIAL PRIMARY KEY
 - **customerName**: VARCHAR(100) NOT NULL
@@ -35,6 +41,9 @@ This Java application is designed to manage invoices, customer details, product 
 - **customerEmail**: VARCHAR(100) UNIQUE
 - **totalDue**: DECIMAL(10, 2)
 - **phoneNumber**: VARCHAR(15) UNIQUE
+  
+![image](https://github.com/user-attachments/assets/e56d6e17-efa6-46db-bb8f-f35b633c45a2)
+
   
 ### InvoiceProducts
 - **invoiceProductId**: SERIAL PRIMARY KEY
@@ -45,11 +54,17 @@ This Java application is designed to manage invoices, customer details, product 
 - **FOREIGN KEY** (invoiceId) REFERENCES InvoiceDetails(invoiceId)
 - **FOREIGN KEY** (productId) REFERENCES ProductDetails(productId)
   
+![image](https://github.com/user-attachments/assets/34e10fa3-448b-4b63-b1cd-572e56bee612)
+
+  
 ### EmployeeDetails
 - **empId**: SERIAL PRIMARY KEY
 - **empName**: VARCHAR(100) NOT NULL
 - **empEmail**: VARCHAR(100) UNIQUE
 - **role**: VARCHAR(50)
+  
+![image](https://github.com/user-attachments/assets/3bce5ebe-476e-43ff-899c-b9589e9731ca)
+
 
 ## Database Diagram
 ![PHOTO-2024-07-18-20-59-31](https://github.com/user-attachments/assets/b337a8a9-f9d8-4807-a676-197166f0e892)
