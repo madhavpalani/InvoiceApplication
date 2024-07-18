@@ -94,7 +94,7 @@ The application includes basic error handling to manage invalid user inputs and 
   Introduced an employee management system to oversee roles, responsibilities, and access levels within the application.
 
 - **Security Enhancements:**
-  Implemented robust security measures, including password encryption using SHA-256, to safeguard user credentials and sensitive information.
+  Implemented robust security measures, including password encryption using SHA-256, to safeguard credentials and sensitive information.
 
 ## Module Screenshots
 - Module 1:
