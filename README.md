@@ -51,6 +51,10 @@ This Java application is designed to manage invoices, customer details, product 
 - **empEmail**: VARCHAR(100) UNIQUE
 - **role**: VARCHAR(50)
 
+## Database Diagram
+![PHOTO-2024-07-18-20-59-31](https://github.com/user-attachments/assets/b337a8a9-f9d8-4807-a676-197166f0e892)
+
+
 ## Error Handling
 The application includes basic error handling to manage invalid user inputs and ensure data integrity.
 
@@ -91,3 +95,9 @@ The application includes basic error handling to manage invalid user inputs and 
 
 - **Security Enhancements:**
   Implemented robust security measures, including password encryption using SHA-256, to safeguard user credentials and sensitive information.
+
+## Future Work
+
+- **Enhanced Customer Notifications:** Implementing improved notifications for customers regarding invoice status updates, payment reminders, and promotional offers to enhance customer engagement and service.
+
+- **Employee Tracking in Invoices:** To enhance accountability and track employee activities, future iterations of the project will include storing the Employee ID with each new invoice. This feature aims to provide insights into employee performance, workload distribution, and customer interactions, facilitating better operational management and transparency within the organization.
