@@ -1,6 +1,6 @@
 # Invoice Management Application
 
-This Java application is designed to manage invoices, customer details, product details, and employee details in a business environment like grocery shop. It operates entirely in the terminal and interacts with a PostgreSQL database to store and retrieve information using JDBC(Java Database Connectivity).
+This Java application is designed to manage invoices, customer details, product details, and employee details in a business environment like grocery shop, supermarket, etc. It operates entirely in the terminal and interacts with a PostgreSQL database to store and retrieve information using JDBC (Java Database Connectivity).
 
 ## Features
 - **Fetch Invoice Details by Date:** Retrieve and display invoice details for a specified date.
@@ -96,8 +96,35 @@ The application includes basic error handling to manage invalid user inputs and 
 - **Security Enhancements:**
   Implemented robust security measures, including password encryption using SHA-256, to safeguard user credentials and sensitive information.
 
+## Module Screenshots
+- Module 1:
+![image](https://github.com/user-attachments/assets/0f1015f9-3e33-4567-b123-23074fb7c3a5)
+
+- Module 2:
+  ![image](https://github.com/user-attachments/assets/e91a15be-bc98-4a54-b203-0c931a6342ec)
+
+- Module 3:
+  ![image](https://github.com/user-attachments/assets/2ae2ce78-e8bc-4d8e-8cb3-11d31089b440)
+  
+- Module 4:
+  ![image](https://github.com/user-attachments/assets/7d682237-e8a6-4fdc-8c11-8698d883fb1f)
+
+- Module 5:
+  ![image](https://github.com/user-attachments/assets/5f016b71-f58f-4860-8683-afe98a16f219)
+
+- Module 6:
+  ![image](https://github.com/user-attachments/assets/5e6385f8-2734-4a1f-876f-d7a0b9f8b0a1)
+  
+- Module 7:
+  ![image](https://github.com/user-attachments/assets/5742798d-72f3-4e9b-abea-29149afb5790)
+
+
+
+
 ## Future Work
 
 - **Enhanced Customer Notifications:** Implementing improved notifications for customers regarding invoice status updates, payment reminders, and promotional offers to enhance customer engagement and service.
 
 - **Employee Tracking in Invoices:** To enhance accountability and track employee activities, future iterations of the project will include storing the Employee ID with each new invoice. This feature aims to provide insights into employee performance, workload distribution, and customer interactions, facilitating better operational management and transparency within the organization.
+
+# THANK YOU!!
