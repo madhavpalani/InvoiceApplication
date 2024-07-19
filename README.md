@@ -80,7 +80,7 @@ The application includes basic error handling to manage invalid user inputs and 
 
 ## Setup:
 
-1. Clone the repository:
+1. Clone the repository
 
 2. Set up the PostgreSQL database with the provided schema.
 
