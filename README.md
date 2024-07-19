@@ -86,7 +86,7 @@ The application includes basic error handling to manage invalid user inputs and 
 
 3. Update the database connection details in the application as needed.
 
-4. Compile and run the application:
+4. Compile and run the application
 
 ## Added Features Throughout the Development Process
 
